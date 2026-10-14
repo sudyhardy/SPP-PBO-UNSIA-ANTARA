@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS dbProjectSiswa CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE dbProjectSiswa;
+CREATE TABLE IF NOT EXISTS pembayaran_spp (
+  id_pembayaran INT AUTO_INCREMENT PRIMARY KEY,
+  id_siswa VARCHAR(20) NOT NULL,
+  nama_siswa VARCHAR(100) NOT NULL,
+  kelas VARCHAR(20) NOT NULL,
+  jurusan VARCHAR(30) NOT NULL,
+  pembayaran VARCHAR(30) NOT NULL,
+  jumlah DECIMAL(15,2) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  password_hash VARCHAR(100) NOT NULL,
+  salt VARCHAR(100) NOT NULL,
+  iterations INT NOT NULL
+);
