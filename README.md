@@ -1,9 +1,3 @@
-# Project Siswa v2 — sumber lengkap
-Java Swing, JDBC, database dbProjectSiswa, login, CRUD, PDF dan cetak.
-Ini versi sumber baru, bukan source persis JAR v1. Belum dikompilasi atau diuji
-pada Codespace pengguna. Gunakan sebagai contoh pembelajaran dan ikuti aturan
-penggunaan AI dari dosen. Tidak ada klaim bahwa kode ini ditulis sendiri oleh pengguna.
-
 ## Kebutuhan
 JDK 11+, Maven, MySQL atau MariaDB kompatibel, desktop grafis untuk Swing.
 Dependency dikunci ke versi contoh, bukan klaim versi paling baru.
